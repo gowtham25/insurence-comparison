@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.comparison-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.comparison-table td, .comparison-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* .comparison-table tr:nth-child(even){background-color: #f2f2f2;} */
+
+/* .comparison-table tr:hover {background-color: #ddd;} */
+
+.comparison-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caaaf;
+  color: #fff;
+}
+
+.comparison-table tbody tr td:nth-child(1){
+  text-align: left;
+  background-color:#45b7bd;
+  color: #fff;
+}
+
+.comparison-table thead tr th:not(:first-child){
+  text-align: center;
+}
+.comparison-table tbody tr td .det-row-td{
+  display: flex;
+  flex-direction: column;
+}
+.comparison-table tbody tr td .det-row-td .type {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.comparison-table tbody tr td .det-row-td .cost {
+  font-family: cursive;
+}
+
+.comparison-table tbody tr td .det-row-td .text{
+  font-size: 12px;
+  font-style: italic;
+}
+.insurance-listing-container {
+  padding: 24px;
+  background: #f4f5f7;
+}
+.insurance-listing-container .individual-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  margin-bottom: 22px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.insurance-listing-container .individual-container .left img{
+  width: 150px;
+  height: 150px; 
+  margin-right: 20px;
+}
+
+.insurance-listing-container .individual-container .right .right-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.insurance-listing-container .individual-container .right .right-cont .name{
+  font-weight: 800;
+}
+
+.insurance-listing-container .individual-container .right .description {
+  text-align: left;
+  font-size: 13px;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: revert;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.bottom-container .terms {
+  font-size: 10px;
+  color: #2b5ca7;
+  cursor: pointer;
+}
+
+.amount-per-month{
+  font-size: 13px;
+  font-family: system-ui;
+}
+
+.actions{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 18px 28px;
+  align-items: center;
+}
+
+.actions button {
+  padding: 13px;
+  font-weight: 700;
+  background: #4caaaf;
+  color: #FFF;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.body-container .sideBar {
+  width: 50%;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: monospace;
+  margin-bottom: 4px;
+}
+
+label {
+  font-size: 14px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.sort-q-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.action1 {
+  padding: 35px;
+  justify-content: flex-start;
+}
